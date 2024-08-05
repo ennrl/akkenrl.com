@@ -8,9 +8,9 @@
 	>
 
 <channel>
-	<title>Без рубрики Archives &#8226; енрл. production</title>
-	<atom:link href="/category/%D0%B1%D0%B5%D0%B7-%D1%80%D1%83%D0%B1%D1%80%D0%B8%D0%BA%D0%B8/feed/" rel="self" type="application/rss+xml" />
-	<link>/category/без-рубрики/</link>
+	<title>admin, Author at енрл. production</title>
+	<atom:link href="/author/admin/feed/" rel="self" type="application/rss+xml" />
+	<link>/author/admin/</link>
 	<description></description>
 	<lastBuildDate>Sat, 03 Aug 2024 14:08:07 +0000</lastBuildDate>
 	<language>ru-RU</language>
