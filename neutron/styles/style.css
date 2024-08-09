@@ -1,0 +1,435 @@
+@media screen and (min-width: 1000px) {
+    html, body {
+        background: #F2F2F7;
+        font-family: "Montserrat";
+        color: #232424 !important;
+        line-height: 1.5;
+    }
+    div.app {
+        width: 1000px;
+        position: absolute;
+        top: 0px;
+        left: calc(50% - 500px)
+    }
+    div.app .header {
+        padding: 20px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    div.app .header .logo {
+        font-weight: 900;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    div.app .header .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+        justify-content: flex-end;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    div.app .header .menu .item {
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+    div.app .section {
+        display: grid;
+        grid-template-columns: 0.48fr 0.52fr;
+        grid-template-rows: fit-content(100%);
+        grid-template-areas: "description widget";
+        gap: 0;
+        height: 300px;
+        overflow: hidden;
+        margin-top: 70px;
+    }
+    div.app .section1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: fit-content(100%);
+        grid-template-areas: "description widget";
+        gap: 0;
+        height: 300px;
+        overflow: hidden;
+    }
+    div.app .section1 .description {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 15px;
+        text-align: center;
+    }
+    div.app .section1 .description .item {
+        background: #E5E5EA;
+        margin: 20px;
+        border-radius: 20px;
+        padding: 32px 32px 34px 32px;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        
+    }
+    div.app .section1 .description .item .icon {
+        height: 70px;
+        width: auto;
+    }
+    div.app .section1 .description .item .title {
+        font-size: 18px;
+        font-weight: 900;
+    }
+    div.app .section1 .description .item .alt {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    div.app .section .description {
+        padding-left: 40px;
+        position: relative;
+        grid-area: description;
+    }
+    div.app .section .widget img {
+        width: calc(80% - 80px);
+    }
+    div.app .section .widget {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    div.grid-item-1 {
+        background: #E5E5EA;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 30px;
+        display: flex;
+        gap: 10px;
+        font-weight: 600;
+        text-align: left;
+        border-radius: 15px;
+    }
+    div.grid-item-1 .emoji {
+        height: 30px;
+        width: 30px;
+    }
+    img.emoji {
+        height: 20px;
+        width: 20px;
+        display: inline-block;
+        position: relative;
+        top: 0px;
+    }
+    div.app .photon {
+        padding: 50px;
+        margin: 30px;
+        border-radius: 40px;
+        margin-top: 70px;
+        color: white;
+        margin-left: 100px;
+        margin-right: 100px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        background: linear-gradient(360deg, rgb(28, 28, 30), rgb(64, 64, 66))
+    }
+    img {
+        user-select: none;
+    }
+    div.app .photon .title {
+        font-weight: 900;
+        font-size: 36px;
+    }
+    div.app .photon .pre {
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        display: inline-block;
+        padding: 3px 20px 3px 20px;
+        border-radius: 100px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    div.app .photon .chat {
+        position: relative;
+        text-align: left;
+        width: 300px;
+        font-size: 14px;
+        font-weight: 500;
+        margin: auto;
+        margin-top: 20px;
+        background: rgb(28, 28, 30);
+        padding: 20px;
+        border-radius: 15px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    }
+    div.app .photon .chat .message.user {
+        width: 100%;
+        text-align: right;
+        margin-bottom: 10px;
+    }
+    div.app .photon .chat .message.user span {
+        background: rgb(255, 255, 255);
+        color: black;
+        display: inline-block;
+        padding: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-radius: 10px;
+        border-bottom-right-radius: 0px;
+    }
+    div.app .photon .chat .message.bot {
+        width: 100%;
+        text-align: left;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    div.app .photon .chat .message.bot span {
+        background: rgb(0, 122, 255);
+        color: white;
+        display: inline-block;
+        padding: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    div.app .footer {
+        padding: 30px;
+        background: rgba(220, 220, 224);
+        font-size: 20px;
+        text-align: center;
+        font-weight: 600;
+        margin-top: 50px;
+        position: relative;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        color: rgb(144, 144, 146)
+    }
+}
+@media screen and (max-width: 1000px) {
+    html, body {
+        background: #F2F2F7;
+        font-family: "Montserrat";
+        color: #232424 !important;
+        line-height: 1.5;
+    }
+    div.app {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+    }
+    div.app .header {
+        padding: 20px;
+        margin-top: 30px;
+        display: grid;
+    }
+    div.app .header .logo {
+        font-weight: 900;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+    }
+    div.app .header .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        justify-content: center;
+        margin-top: 15px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    div.app .header .menu .item {
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+    div.app .section {
+        display: grid;
+        grid-template-rows: 0.48fr 0.52fr;
+        grid-template-columns: 1fr;
+        gap: 0;
+        overflow: hidden;
+        margin-top: 70px;
+    }
+    div.app .section1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: fit-content(100%);
+        grid-template-areas: "description widget";
+        gap: 0;
+        overflow: hidden;
+    }
+    div.app .section1 .description {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        text-align: center;
+    }
+    div.app .section1 .description .item {
+        background: #E5E5EA;
+        margin: 10px;
+        margin-right: 50px;
+        margin-left: 50px;
+        border-radius: 20px;
+        padding: 32px 32px 34px 32px;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        
+    }
+    div.app .section1 .description .item .icon {
+        height: 70px;
+        width: auto;
+    }
+    div.app .section1 .description .item .title {
+        font-size: 22px;
+        font-weight: 900;
+    }
+    div.app .section1 .description .item .alt {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    div.app .section .description {
+        padding-left: 40px;
+        position: relative;
+        padding-right: 40px;
+        grid-row: 1;
+    }
+    div.app .section .widget img {
+        width: 300px;
+    }
+    div.app .section .widget {
+        justify-content: center;
+        display: flex;
+        height: 200px;
+        overflow: none;
+        align-items: center;
+    }
+    div.app .section .widget.iphone {
+        height: 400px;
+    }
+
+    div.grid-item-1 {
+        background: #E5E5EA;
+        padding: 5px;
+        width: auto;
+        font-size: 14px;
+        line-height: 30px;
+        display: flex;
+        gap: 5px;
+        font-weight: 600;
+        text-align: left;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .mobile-table-1 {
+        display: grid;
+        gap: 10px !important;
+        width: calc(100%);
+        grid-template-columns: 1fr !important;
+        grid-template-rows: repeat(4, 1fr) !important;
+    }
+    .mobile-iphone-1 {
+        top: 140px;
+        position: relative;
+    }
+    div.grid-item-1 .emoji {
+        height: 30px;
+        width: 30px;
+    }
+    img.emoji {
+        height: 20px;
+        width: 20px;
+        display: inline-block;
+        position: relative;
+        top: 0px;
+    }
+    div.app .photon {
+        padding: 25px;
+        margin: 10px;
+        border-radius: 40px;
+        margin-top: 70px;
+        color: white;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        background: linear-gradient(360deg, rgb(28, 28, 30), rgb(64, 64, 66))
+    }
+    img {
+        user-select: none;
+    }
+    div.app .photon .title {
+        font-weight: 900;
+        font-size: 36px;
+    }
+    div.app .photon .pre {
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        display: inline-block;
+        padding: 3px 20px 3px 20px;
+        border-radius: 100px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    div.app .photon .chat {
+        position: relative;
+        text-align: left;
+        width: calc(80%);
+        font-size: 14px;
+        font-weight: 500;
+        margin: auto;
+        margin-top: 20px;
+        background: rgb(28, 28, 30);
+        padding: 20px;
+        border-radius: 15px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    }
+    div.app .photon .chat .message.user {
+        width: 100%;
+        text-align: right;
+        margin-bottom: 10px;
+    }
+    div.app .photon .chat .message.user span {
+        background: rgb(255, 255, 255);
+        color: black;
+        display: inline-block;
+        padding: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-radius: 10px;
+        border-bottom-right-radius: 0px;
+    }
+    div.app .photon .chat .message.bot {
+        text-align: left;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    div.app .photon .chat .message.bot span {
+        background: rgb(0, 122, 255);
+        color: white;
+        display: inline-block;
+        padding: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    div.app .footer {
+        padding: 30px;
+        background: rgba(220, 220, 224);
+        font-size: 16px;
+        text-align: center;
+        font-weight: 600;
+        margin-top: 50px;
+        position: relative;
+        color: rgb(144, 144, 146)
+    }
+}
