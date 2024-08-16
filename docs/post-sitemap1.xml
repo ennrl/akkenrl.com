@@ -2,11 +2,8 @@
 <loc>/</loc>
 </url>
 <url>
-<loc>/news/2024/08/03/id-18/</loc>
-<lastmod>2024-08-16T21:53:30+03:00</lastmod></url>
-<url>
-<loc>/ios/2024/08/16/id-63/</loc>
-<lastmod>2024-08-16T21:51:46+03:00</lastmod>
+<loc>/ios/2024/08/16/id63/</loc>
+<lastmod>2024-08-16T22:22:03+03:00</lastmod>
 <image:image>
 <image:loc><![CDATA[/http:///wp-content/uploads/2024/08/image.png]]></image:loc>
 </image:image>
@@ -21,4 +18,7 @@
 </image:image>
 <image:image>
 <image:loc><![CDATA[/http:///wp-content/uploads/2024/08/IMG_3915.jpg]]></image:loc>
-</image:image></url></urlset>
+</image:image></url>
+<url>
+<loc>/news/2024/08/03/id18/</loc>
+<lastmod>2024-08-16T21:53:30+03:00</lastmod></url></urlset>

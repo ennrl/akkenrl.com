@@ -12,7 +12,7 @@
 	<atom:link href="/category/ios/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Fri, 16 Aug 2024 18:51:46 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 16 Aug 2024 19:22:03 +0000</lastBuildDate>
 	<language>ru-RU</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,8 +20,8 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.6.1</generator>
 	<item>
-		<title>iOS: Как сделать свой текст вместо Carier</title>
-		<link>/ios/2024/08/16/id-63/</link>
+		<title>iOS: Как сделать свой текст вместо Carrier</title>
+		<link>/ios/2024/08/16/id63/</link>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Fri, 16 Aug 2024 18:10:40 +0000</pubDate>
