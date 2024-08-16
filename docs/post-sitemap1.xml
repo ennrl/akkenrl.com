@@ -2,8 +2,14 @@
 <loc>/</loc>
 </url>
 <url>
+<loc>/news/2024/08/03/id-18/</loc>
+<lastmod>2024-08-16T21:46:49+03:00</lastmod>
+<image:image>
+<image:loc><![CDATA[/wp-content/uploads/2024/08/media_post_2.png]]></image:loc>
+</image:image></url>
+<url>
 <loc>/ios/2024/08/16/id-63/</loc>
-<lastmod>2024-08-16T21:10:42+03:00</lastmod>
+<lastmod>2024-08-16T21:46:09+03:00</lastmod>
 <image:image>
 <image:loc><![CDATA[/http:///wp-content/uploads/2024/08/image.png]]></image:loc>
 </image:image>
@@ -18,7 +24,7 @@
 </image:image>
 <image:image>
 <image:loc><![CDATA[/http:///wp-content/uploads/2024/08/IMG_3915.jpg]]></image:loc>
-</image:image></url>
-<url>
-<loc>/news/2024/08/03/id-18/</loc>
-<lastmod>2024-08-16T20:47:25+03:00</lastmod></url></urlset>
+</image:image>
+<image:image>
+<image:loc><![CDATA[/wp-content/uploads/2024/08/media_post_1.png]]></image:loc>
+</image:image></url></urlset>
