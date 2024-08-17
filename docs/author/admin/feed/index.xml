@@ -12,7 +12,7 @@
 	<atom:link href="/author/admin/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Fri, 16 Aug 2024 19:51:46 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 17 Aug 2024 11:09:24 +0000</lastBuildDate>
 	<language>ru-RU</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,42 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.6.1</generator>
 	<item>
+		<title>Neutron UPD: Новый вид взаимодействия &#8212; Сервисы</title>
+		<link>/news/2024/08/17/id121/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sat, 17 Aug 2024 10:54:44 +0000</pubDate>
+				<category><![CDATA[Новости]]></category>
+		<guid isPermaLink="false">/?p=121</guid>
+
+					<description><![CDATA[Привет дорогой читатель, сегодня приложение Neutron немного обновилось, и пополнилось таким функционалом как &#171;Сервисы&#187;. В данных сервисах будут публиковаться мини приложения для более удобного использования основного приложения. Эти сервисы будут обновляться независимо от основного приложения, и весь код будет располагаться на серверах. Приложение будет пополняться все более полезным функционалом, ну а мы ждем ближайшей публикации [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Привет дорогой читатель, сегодня приложение Neutron немного обновилось, и пополнилось таким функционалом как &#171;Сервисы&#187;.</p>
+
+
+
+<div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
+<figure class="wp-block-video aligncenter"><video autoplay loop muted preload="auto" src="/wp-content/uploads/2024/08/iphone-video-site.mp4" playsinline></video></figure>
+</div>
+
+
+
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
+<p>В данных сервисах будут публиковаться мини приложения для более удобного использования основного приложения. Эти сервисы будут обновляться независимо от основного приложения, и весь код будет располагаться на серверах.</p>
+</div>
+</div>
+
+
+
+<p>Приложение будет пополняться все более полезным функционалом, ну а мы ждем ближайшей публикации приложения в различные магазины приложений, таких как AppStore и Google Play.</p>
+]]></content:encoded>
+					
+		
+		<enclosure url="/wp-content/uploads/2024/08/iphone-video-site.mp4" length="5728864" type="video/mp4" />
+
+			</item>
+		<item>
 		<title>iOS: Как сделать свой текст вместо Carrier</title>
 		<link>/ios/2024/08/16/id63/</link>
 		
@@ -114,7 +150,7 @@
 
 
 
-<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 <figure class="wp-block-image size-full has-custom-border"><img loading="lazy" decoding="async" width="828" height="691" src="/wp-content/uploads/2024/08/IMG_3914.jpg" alt="" class="wp-image-71" style="border-radius:10px" srcset="/wp-content/uploads/2024/08/IMG_3914.jpg 828w, /wp-content/uploads/2024/08/IMG_3914-300x250.jpg 300w, /wp-content/uploads/2024/08/IMG_3914-768x641.jpg 768w" sizes="(max-width: 828px) 100vw, 828px" /></figure>
 </div>
