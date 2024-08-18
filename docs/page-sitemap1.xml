@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/sitemaps_xsl.xsl"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
+<loc>/privacy/</loc>
+<lastmod>2024-08-18T19:14:26+03:00</lastmod></url>
+<url>
+<loc>/dev-questions/zapretit-mashtabirovanie-v-react-native-expo/</loc>
+<lastmod>2024-08-18T19:04:00+03:00</lastmod></url>
+<url>
 <loc>/news-all/</loc>
 <lastmod>2024-08-18T18:51:40+03:00</lastmod></url>
 <url>
@@ -37,7 +43,4 @@
 <lastmod>2024-08-05T23:21:00+03:00</lastmod></url>
 <url>
 <loc>/sitemap/</loc>
-<lastmod>2024-08-05T23:19:18+03:00</lastmod></url>
-<url>
-<loc>/dev-questions/запретить-масштабирование-в-reactnative-expo/</loc>
-<lastmod>2024-08-05T22:18:25+03:00</lastmod></url></urlset>
+<lastmod>2024-08-05T23:19:18+03:00</lastmod></url></urlset>

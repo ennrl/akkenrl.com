@@ -7,8 +7,8 @@
 	>
 <channel>
 	<title>
-	Комментарии на сайте енрл. production	</title>
-	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
+	Комментарии: Privacy Policy	</title>
+	<atom:link href="/privacy/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
 	<lastBuildDate>Sun, 18 Aug 2024 16:14:26 +0000</lastBuildDate>
