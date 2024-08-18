@@ -12,7 +12,7 @@
 	<atom:link href="/author/admin/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Sat, 17 Aug 2024 11:09:24 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 18 Aug 2024 15:45:21 +0000</lastBuildDate>
 	<language>ru-RU</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,33 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.6.1</generator>
 	<item>
+		<title>Новый раздел?!</title>
+		<link>/news/2024/08/18/id144/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sun, 18 Aug 2024 15:44:55 +0000</pubDate>
+				<category><![CDATA[Новости]]></category>
+		<guid isPermaLink="false">/?p=144</guid>
+
+					<description><![CDATA[Хеллоу, и опять же добро пожаловать на сайт akkenrl.com. Сегодня выпускаю обновление сайта, где добавляю пункт &#171;Книги для чтения&#187; Здесь буду публиковать книги, которые читаю или буду читать и рекомендую к прочтению.]]></description>
+										<content:encoded><![CDATA[
+<p>Хеллоу, и опять же добро пожаловать на сайт akkenrl.com. Сегодня выпускаю обновление сайта, где добавляю пункт &#171;Книги для чтения&#187;</p>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/books/">Книги для чтения</a></div>
+</div>
+
+
+
+<p>Здесь буду публиковать книги, которые читаю или буду читать и рекомендую к прочтению.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Neutron UPD: Новый вид взаимодействия &#8212; Сервисы</title>
 		<link>/news/2024/08/17/id121/</link>
 		
