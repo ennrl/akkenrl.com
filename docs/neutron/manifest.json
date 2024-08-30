@@ -1,0 +1,17 @@
+{
+    "name": "Neutron",
+    "description": "Приложение Национального Детского Технопарка",
+    "short_name": "Neutron",
+    "start_url": "https://akkenrl.com/neutron/linker",
+    "scope": "https://akkenrl.com/neutron",
+    "lang": "ru",
+    "theme_color": "#000000",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "https://akkenrl.com/neutron/assets/icon.png",
+        "sizes": "512x512",
+        "type": "image/pg"
+      }
+    ]
+  }
