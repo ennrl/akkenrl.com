@@ -12,7 +12,7 @@
 	<atom:link href="/category/news/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Sun, 18 Aug 2024 15:45:21 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 01 Sep 2024 14:42:48 +0000</lastBuildDate>
 	<language>ru-RU</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,43 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.6.1</generator>
 	<item>
+		<title>Новый, более быстрый хостинг</title>
+		<link>/news/2024/09/01/id173/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sun, 01 Sep 2024 14:42:25 +0000</pubDate>
+				<category><![CDATA[Новости]]></category>
+		<guid isPermaLink="false">/?p=173</guid>
+
+					<description><![CDATA[На самом деле, не для кого не секрет, что сайт akkenrl.com находился на хостинге GitHub Pages. Вы меня спросите: ты что, пишешь каждую страницу вручную?! Мой ответ: нет! Управлением контента занимается WordPress развернутый на локальном хосте, потом все страницы делаются статичными и публикуются в Git репозиторий, затем магия, и оп вы видите этот сайт. Но [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>На самом деле, не для кого не секрет, что сайт akkenrl.com находился на хостинге GitHub Pages.</p>
+
+
+
+<p>Вы меня спросите: ты что, пишешь каждую страницу вручную?!</p>
+
+
+
+<p>Мой ответ: нет! </p>
+
+
+
+<p>Управлением контента занимается WordPress развернутый на локальном хосте, потом все страницы делаются статичными и публикуются в Git репозиторий, затем магия, и оп вы видите этот сайт.</p>
+
+
+
+<p>Но мне захотелось попробовать чего то более быстрого, и теперь сайт akkenrl.com располагается на хостинге Cloudflare. До этого я использовал его только для управления DNS, но теперь решил большинство всех своих сервисов перенести в одно место &#8212; cloudflare. </p>
+
+
+
+<p>На самом деле у Cloudflare много различных решений как для разработчиков, так и для системных администраторов. Если интересно то можете сами ознакомится со всем функционалом у них на сайте =)</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Новый раздел?!</title>
 		<link>/news/2024/08/18/id144/</link>
 		
