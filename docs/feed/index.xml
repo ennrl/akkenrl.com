@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Sun, 01 Sep 2024 14:42:48 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 08 Sep 2024 12:32:48 +0000</lastBuildDate>
 	<language>ru-RU</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,117 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.6.1</generator>
 	<item>
+		<title>Приостановка работы некоторых поддоменов akkenrl.com</title>
+		<link>/%d0%b1%d0%b5%d0%b7-%d1%80%d1%83%d0%b1%d1%80%d0%b8%d0%ba%d0%b8/2024/09/08/id217/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sun, 08 Sep 2024 12:32:47 +0000</pubDate>
+				<category><![CDATA[Без рубрики]]></category>
+		<guid isPermaLink="false">/?p=217</guid>
+
+					<description><![CDATA[Добрый день, DNS записи домена akkenrl.com претерпели некоторые изменения, в них входят удаление поддоменов: Все эти поддомены недоступны на данный период времени, в будущем на их место может придти что то намного масштабнее, чем это было сейчас =)]]></description>
+										<content:encoded><![CDATA[
+<p>Добрый день, DNS записи домена akkenrl.com претерпели некоторые изменения, в них входят удаление поддоменов:</p>
+
+
+
+<ul class="wp-block-list">
+<li>_0a37a215ce83aefe6a04e7d6b67b6a16.photos.cdn.ndtp.akkenrl.com</li>
+
+
+
+<li>api.msg.akkenrl.com</li>
+
+
+
+<li>api.neutron.akkenrl.com</li>
+
+
+
+<li>avia.akkenrl.com</li>
+
+
+
+<li>cdn.akkenrl.com</li>
+
+
+
+<li>data.akkenrl.com</li>
+
+
+
+<li>firebase1._domainkey.ndtp.akkenrl.com</li>
+
+
+
+<li>firebase2._domainkey.ndtp.akkenrl.com</li>
+
+
+
+<li>friend.ndtp.akkenrl.com</li>
+
+
+
+<li>library.akkenrl.com</li>
+
+
+
+<li>localhost.akkenrl.com</li>
+
+
+
+<li>mail.akkenrl.com</li>
+
+
+
+<li>media.cdn.ndtp.akkenrl.com</li>
+
+
+
+<li>ndtp.akkenrl.com</li>
+
+
+
+<li>neutron.akkenrl.com</li>
+
+
+
+<li>ntrn.akkenrl.com</li>
+
+
+
+<li>photos.cdn.ndtp.akkenrl.com</li>
+
+
+
+<li>privacy.akkenrl.com</li>
+
+
+
+<li>public.neutron.akkenrl.com</li>
+
+
+
+<li>sig1._domainkey.akkenrl.com</li>
+
+
+
+<li>web.neutron.akkenrl.com</li>
+
+
+
+<li>msg.akkenrl.com [МХ запись (прекращение работы почты)]</li>
+</ul>
+
+
+
+<p>Все эти поддомены недоступны на данный период времени, в будущем на их место может придти что то намного масштабнее, чем это было сейчас =)</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Новый, более быстрый хостинг</title>
 		<link>/news/2024/09/01/id173/</link>
 		
