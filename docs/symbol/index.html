@@ -1,9 +1,11 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Symbols</title>
-    <style>.sf-icon {
+    <style>
+        .sf-icon {
             display: inline-block;
             margin: 10px;
             border-radius: 10px;
@@ -14,7 +16,8 @@
             font-size: 24px;
             text-align: center;
             font-family: "SF Pro";
-        }</style>
+        }
+    </style>
 </head>
 <body>
     
@@ -22,10 +25,11 @@
         import * as sym from "./symbols.js"
         let html = ""
         Object.keys(sym.SFSymbols).forEach(e=>{
-            html += "<div class='sf-icon'>" + sym.SFSymbols[e] + "<\/div>"
+            html += "<div class='sf-icon'>" + sym.SFSymbols[e] + ""
         })
         document.querySelector("body").innerHTML += html
     </script>
 
 </body>
 </html>
+<!-- Powered by Staatic (https://staatic.com/) -->
