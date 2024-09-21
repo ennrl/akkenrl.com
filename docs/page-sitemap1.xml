@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemaps_xsl.xsl"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>vsu-sdo-filosofy-module-1-test-1-1/index.html</loc>
-<lastmod>2024-09-14T11:51:42+03:00</lastmod>
+<loc>vsu-files/index.html</loc>
+<lastmod>2024-09-21T14:34:37+03:00</lastmod></url>
+<url>
+<loc>vsu-files/vsu-sdo-filosofy-module-1-test-1-1/index.html</loc>
+<lastmod>2024-09-21T14:32:54+03:00</lastmod>
 <image:image>
 <image:loc><![CDATA[http/index.html:wp-content/uploads/2024/09/04B5401A-73FF-4E3A-A3D8-543C8B76C053.png]]></image:loc>
 </image:image>
@@ -156,8 +159,8 @@
 <image:loc><![CDATA[http/index.html:wp-content/uploads/2024/09/C41FF8A0-5946-4881-94A3-10D92DAF80B9.png]]></image:loc>
 </image:image></url>
 <url>
-<loc>mat-analis-d-z-grafiki/index.html</loc>
-<lastmod>2024-09-08T21:40:23+03:00</lastmod>
+<loc>vsu-files/mat-analis-d-z-grafiki/index.html</loc>
+<lastmod>2024-09-21T14:32:43+03:00</lastmod>
 <image:image>
 <image:loc><![CDATA[http/index.html:wp-content/uploads/2024/09/lab_1-1-828x1024.png]]></image:loc>
 </image:image>
@@ -191,6 +194,9 @@
 <image:image>
 <image:loc><![CDATA[http/index.html:wp-content/uploads/2024/09/lab_1-11-841x1024.png]]></image:loc>
 </image:image></url>
+<url>
+<loc>vsu-files/filosofy-conspect/index.html</loc>
+<lastmod>2024-09-21T14:30:52+03:00</lastmod></url>
 <url>
 <loc>pintrest-vol-1/index.html</loc>
 <lastmod>2024-09-03T04:52:30+03:00</lastmod>
