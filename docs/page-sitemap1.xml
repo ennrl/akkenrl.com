@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemaps_xsl.xsl"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
+<loc>vsu-files/filosofy-conspect/index.html</loc>
+<lastmod>2024-09-21T14:44:47+03:00</lastmod></url>
+<url>
 <loc>vsu-files/index.html</loc>
 <lastmod>2024-09-21T14:34:37+03:00</lastmod></url>
 <url>
@@ -194,9 +197,6 @@
 <image:image>
 <image:loc><![CDATA[http/index.html:wp-content/uploads/2024/09/lab_1-11-841x1024.png]]></image:loc>
 </image:image></url>
-<url>
-<loc>vsu-files/filosofy-conspect/index.html</loc>
-<lastmod>2024-09-21T14:30:52+03:00</lastmod></url>
 <url>
 <loc>pintrest-vol-1/index.html</loc>
 <lastmod>2024-09-03T04:52:30+03:00</lastmod>
