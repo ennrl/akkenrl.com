@@ -1,0 +1,52 @@
+body {
+    --color-light-gray1: rgb(142, 142, 147);
+    --color-light-gray2: rgb(174, 174, 178);
+    --color-light-gray3: rgb(199, 199, 204);
+    --color-light-gray4: rgb(209, 209, 214);
+    --color-light-gray5: rgb(229, 229, 234);
+    --color-light-gray6: rgb(242, 242, 247);
+    --color-light-red: rgb(255, 59, 48);
+    --color-light-orange: rgb(255, 149, 0);
+    --color-light-yellow: rgb(255, 204, 0);
+    --color-light-green: rgb(52, 199, 89);
+    --color-light-mint: rgb(0, 199, 190);
+    --color-light-teal: rgb(48, 176, 199);
+    --color-light-cyan: rgb(50, 173, 230);
+    --color-light-blue: rgb(0, 122, 255);
+    --color-light-indigo: rgb(88, 86, 214);
+    --color-light-purple: rgb(175, 82, 222);
+    --color-light-pink: rgb(255, 45, 85);
+    --color-light-brown: rgb(162, 132, 94);
+}
+.content {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgb(28, 28, 30);
+    color: white;
+}
+* {
+    user-select: none;
+}
+.content .helloMessage {
+    padding: 20px;
+    padding-top: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+.content .helloMessage .hello {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.content .helloMessage .hello span {
+    color: var(--color-light-orange)
+}
+.content .helloMessage .logo {
+    background: url(./logo_ndtp.png) no-repeat;
+    background-size: 50%;
+    background-position: top center ;
+    width: calc(100%);
+    height: calc((100vw - 40px) / 2048 * (635 / 2));
+}

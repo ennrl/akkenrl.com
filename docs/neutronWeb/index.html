@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeutronWeb</title>
+    <link rel="stylesheet" href="./static/neutron.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script>
+        window.addEventListener("DOMContentLoaded", ()=>{
+            let tg = window.Telegram.WebApp;
+            tg.enableClosingConfirmation();
+            tg.setBackgroundColor("rgb(28, 28, 30)")
+            tg.setBottomBarColor("rgb(28, 28, 30)")
+            tg.setHeaderColor("rgb(28, 28, 30)")
+
+
+            console.log(tg.initDataUnsafe.user);
+
+            document.querySelector(".content .helloMessage .hello").innerHTML = "Привет <span>" + tg.initDataUnsafe.user.first_name + "</span>"
+        })
+    </script>
+</head>
+<body>
+
+    <div class='content'>
+
+        <div class="calendar"></div>
+
+        <div class="helloMessage">
+            <div class="logo"></div>
+            <div class="hello">Привет </div>
+        </div>
+
+        <div class="eventsBox"></div>
+
+    </div>
+
+</body>
+</html>
