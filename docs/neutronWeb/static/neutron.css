@@ -41,7 +41,7 @@ body {
     margin-top: 15px;
 }
 .content .helloMessage .hello span {
-    color: var(--color-light-orange)
+    color: var(--color-light-teal)
 }
 .content .helloMessage .logo {
     background: url(./logo_ndtp.png) no-repeat;

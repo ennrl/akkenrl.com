@@ -27,7 +27,9 @@
 
     <div class='content'>
 
-        <div class="calendar"></div>
+        <div class="calendar">
+
+        </div>
 
         <div class="helloMessage">
             <div class="logo"></div>
@@ -38,5 +40,25 @@
 
     </div>
 
+    <script>
+        let data = [
+            {
+                day: "10",
+                naming: "Чт",
+                weekend: false,
+                events: [
+                    {
+                        name: "Заселение",
+                        time: "10:00",
+                        endTime: "15:00",
+                        description: "Заселение гостей из \"Сириус\" в Национальный детский технопарк"
+                    }
+                ]
+            }
+        ]
+        window.addEventListener("DOMContentLoaded", ()=>{
+
+        })
+    </script>
 </body>
 </html>
