@@ -41,10 +41,10 @@ body {
     margin-top: 15px;
 }
 .content .helloMessage .hello span {
-    color: var(--color-light-teal)
+    color: var(--color-light-cyan)
 }
 .content .helloMessage .logo {
-    background: url(./logo_ndtp.png) no-repeat;
+    background: url(logo_ndtp.png) no-repeat;
     background-size: 50%;
     background-position: top center ;
     width: calc(100%);

@@ -1,13 +1,14 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NeutronWeb</title>
-    <link rel="stylesheet" href="./static/neutron.css">
+    <link rel="stylesheet" href="static/neutron.css">
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
     <script>
         window.addEventListener("DOMContentLoaded", ()=>{
             let tg = window.Telegram.WebApp;
@@ -19,13 +20,13 @@
 
             console.log(tg.initDataUnsafe.user);
 
-            document.querySelector(".content .helloMessage .hello").innerHTML = "Привет <span>" + tg.initDataUnsafe.user.first_name + "</span>"
+            document.querySelector(".content .helloMessage .hello").innerHTML = "&#1055;&#1088;&#1080;&#1074;&#1077;&#1090; <span>" + tg.initDataUnsafe.user.first_name + ""
         })
     </script>
 </head>
 <body>
 
-    <div class='content'>
+    <div class="content">
 
         <div class="calendar">
 
@@ -33,7 +34,7 @@
 
         <div class="helloMessage">
             <div class="logo"></div>
-            <div class="hello">Привет </div>
+            <div class="hello">&#1055;&#1088;&#1080;&#1074;&#1077;&#1090; </div>
         </div>
 
         <div class="eventsBox"></div>
@@ -44,14 +45,14 @@
         let data = [
             {
                 day: "10",
-                naming: "Чт",
+                naming: "&#1063;&#1090;",
                 weekend: false,
                 events: [
                     {
-                        name: "Заселение",
+                        name: "&#1047;&#1072;&#1089;&#1077;&#1083;&#1077;&#1085;&#1080;&#1077;",
                         time: "10:00",
                         endTime: "15:00",
-                        description: "Заселение гостей из \"Сириус\" в Национальный детский технопарк"
+                        description: "&#1047;&#1072;&#1089;&#1077;&#1083;&#1077;&#1085;&#1080;&#1077; &#1075;&#1086;&#1089;&#1090;&#1077;&#1081; &#1080;&#1079; \"&#1057;&#1080;&#1088;&#1080;&#1091;&#1089;\" &#1074; &#1053;&#1072;&#1094;&#1080;&#1086;&#1085;&#1072;&#1083;&#1100;&#1085;&#1099;&#1081; &#1076;&#1077;&#1090;&#1089;&#1082;&#1080;&#1081; &#1090;&#1077;&#1093;&#1085;&#1086;&#1087;&#1072;&#1088;&#1082;"
                     }
                 ]
             }
@@ -62,3 +63,4 @@
     </script>
 </body>
 </html>
+<!-- Powered by Staatic (https://staatic.com/) -->
