@@ -24,14 +24,16 @@ body {
     left: 0px;
     right: 0px;
     bottom: 0px;
+    overflow-y: auto;
     background: rgb(28, 28, 30);
     color: white;
 }
 * {
     user-select: none;
+    font-family: "Montserrat", sans-serif;
 }
 .content .helloMessage {
-    padding: 20px;
+    padding: 10px;
     padding-top: 0px;
     font-family: "Montserrat", sans-serif;
 }
@@ -49,4 +51,84 @@ body {
     background-position: top center ;
     width: calc(100%);
     height: calc((100vw - 40px) / 2048 * (635 / 2));
+}
+.content .calendar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    aspect-ratio: 1/1;
+    grid-template-rows: 1fr 1fr;
+    height: calc(((100vw - 20px) - 50px / 7) / 4);
+    padding-left: 10px;
+    padding-right: 10px;
+    width: calc(100% - 20px);
+}
+.content .calendar .item {
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: rgb(44, 44, 46);
+    border-radius: 10px;
+}
+.content .calendar .item.selected {
+    background: white;
+    color: black;
+}
+.content .calendar .item .weekday {
+    font-weight: 700;
+}
+.content .calendar .item.colored .weekday {
+    color: var(--color-light-red)
+}
+.content .eventsBox .item {
+    margin: 10px;
+    display: block;
+    background: rgb(44, 44, 46);
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    display: grid;
+    grid-template-columns: 0.8fr 0.2fr;
+}
+.content .eventsBox .item .name {
+    font-size: 18px;
+    font-weight: 600;
+}
+.content .eventsBox .item .time {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: right;
+}
+.content .eventsBox .item .end_time {
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.75;
+    margin-top: 5px;
+    text-align: right;
+}
+.content .eventsBox .item .description {
+    font-size: 14px;
+    opacity: 0.5;
+    margin-top: 5px;
+}
+.copyright {
+    display: block;
+    width: calc(100% - 20px);
+    text-align: center;
+    opacity: 0.25;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+.copyright a {
+    color: white;
+    
 }
