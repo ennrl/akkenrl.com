@@ -7,9 +7,9 @@
 	>
 <channel>
 	<title>
-	Комментарии на сайте енрл. production	</title>
-	<atom:link href="https://akkenrl.com/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://akkenrl.com/</link>
+	Комментарии: Как создать свой сайт без покупки какого либо хостинга?	</title>
+	<atom:link href="https://akkenrl.com/data/127/feed/" rel="self" type="application/rss+xml" />
+	<link>https://akkenrl.com/data/127/</link>
 	<description></description>
 	<lastBuildDate>Thu, 19 Dec 2024 16:50:11 +0000</lastBuildDate>
 	<sy:updatePeriod>
