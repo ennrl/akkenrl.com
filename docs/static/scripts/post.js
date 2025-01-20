@@ -11,6 +11,7 @@ window.addEventListener("DOMContentLoaded", async ()=>{
     let data = await request.text();
 
     document.querySelector("main.content .postData .basic-title").innerHTML = data.split("[post-title]")[1].split("[/post-title]")[0]
+    document.title =  "who енрл? | " + data.split("[post-title]")[1].split("[/post-title]")[0]
     document.querySelector("main.content .postData .postDate").innerHTML = data.split("[post-date]")[1].split("[/post-date]")[0]
    
     let content = data.split("[post-content]")[1].split("[/post-content]")[0]
